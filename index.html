@@ -1,0 +1,244 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><p>&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html lang="hi"&gt;</p>
+<p>&lt;head&gt;</p>
+<p>&nbsp; &nbsp; &lt;meta charset="UTF-8"&gt;</p>
+<p>&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p>&nbsp; &nbsp; &lt;title&gt;Premium YouTube Scriptwriter Portfolio&lt;/title&gt;</p>
+<p>&nbsp; &nbsp; &lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p>&nbsp; &nbsp; &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css"&gt;</p>
+<p>&nbsp; &nbsp; &lt;style&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap');</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; body {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; font-family: 'Poppins', sans-serif;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background-color: #0a0a0a;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: #ffffff;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; scroll-behavior: smooth;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .red-gradient-text {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: linear-gradient(90deg, #ff0000, #b30000);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -webkit-background-clip: text;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -webkit-text-fill-color: transparent;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .card-glass {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: rgba(255, 255, 255, 0.03);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; border: 1px solid rgba(255, 0, 0, 0.1);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; backdrop-filter: blur(10px);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; transition: all 0.3s ease;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .card-glass:hover {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; border-color: #ff0000;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; transform: translateY(-5px);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box-shadow: 0 10px 20px rgba(255, 0, 0, 0.1);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .btn-primary {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: #ff0000;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; transition: all 0.3s ease;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .btn-primary:hover {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: #cc0000;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .nav-link:hover {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: #ff0000;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .scroll-indicator {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; width: 2px;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; height: 50px;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: linear-gradient(to bottom, #ff0000, transparent);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; &lt;/style&gt;</p>
+<p>&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Navigation --&gt;</p>
+<p>&nbsp; &nbsp; &lt;nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-red-900/30 px-6 py-4 flex justify-between items-center"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="text-2xl font-bold tracking-tighter text-white"&gt;SCRIPT&lt;span class="text-red-600"&gt;MASTER&lt;/span&gt;&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="hidden md:flex space-x-8 font-medium"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#home" class="nav-link"&gt;Home&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#samples" class="nav-link"&gt;Samples&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#reviews" class="nav-link"&gt;Reviews&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#payment" class="nav-link"&gt;Hire Me&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#payment" class="btn-primary text-sm px-5 py-2 rounded-full font-semibold"&gt;Order Now&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &lt;/nav&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Hero Section --&gt;</p>
+<p>&nbsp; &nbsp; &lt;section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="inline-block px-4 py-1 border border-red-600 rounded-full text-red-500 text-xs font-bold mb-6 tracking-widest uppercase"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Professional YouTube Scriptwriter</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Main likhta hoon aapke liye &lt;br&gt;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="red-gradient-text"&gt;Viral Hone Wali Scripts!&lt;/span&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/h1&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-400 max-w-2xl text-lg mb-10"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Aapki video ka content hi decide karta hai ki log subscribe karenge ya nahi. Main banata hoon aisi scripts jo audience ko end tak bandh kar rakhti hain.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex flex-col md:flex-row gap-4"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#samples" class="bg-white text-black px-8 py-3 rounded-md font-bold hover:bg-gray-200 transition"&gt;View My Work&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#payment" class="btn-primary px-8 py-3 rounded-md font-bold"&gt;Start @ $39/Script&lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="mt-20 animate-bounce"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="scroll-indicator mx-auto"&gt;&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &lt;/section&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Details/Features Section --&gt;</p>
+<p>&nbsp; &nbsp; &lt;section class="py-20 px-6 max-w-6xl mx-auto"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="grid grid-cols-1 md:grid-cols-3 gap-8"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-8 rounded-2xl"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-hook text-3xl text-red-600 mb-4"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-xl font-bold mb-2"&gt;Power Hooks&lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-400 text-sm"&gt;Pehle 30 seconds aisi hogi ki viewer skip nahi kar payega. Retention guaranteed.&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-8 rounded-2xl"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-brain text-3xl text-red-600 mb-4"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-xl font-bold mb-2"&gt;Psychological Flow&lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-400 text-sm"&gt;Har script ek kahani ki tarah flow karti hai, jisse engagement badhta hai.&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-8 rounded-2xl"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-chart-line text-3xl text-red-600 mb-4"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-xl font-bold mb-2"&gt;SEO Optimized&lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-400 text-sm"&gt;Scripts ko YouTube algorithm ke hisaab se optimize kiya jata hai.&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &lt;/section&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Samples Section --&gt;</p>
+<p>&nbsp; &nbsp; &lt;section id="samples" class="py-20 px-6 bg-neutral-950"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="max-w-6xl mx-auto"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-4xl font-bold mb-12 text-center"&gt;Mere Unique &lt;span class="text-red-600"&gt;Samples&lt;/span&gt;&lt;/h2&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="space-y-12"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Sample 1 --&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-6 md:p-10 rounded-3xl border-l-4 border-l-red-600"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex flex-col md:flex-row justify-between mb-6"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-2xl font-bold"&gt;Niche: Tech &amp; Gadgets (Review Style)&lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-red-500 font-mono text-sm uppercase mt-2 md:mt-0 tracking-widest"&gt;Case Study&lt;/span&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-black/50 p-6 rounded-xl font-mono text-sm text-gray-300 leading-relaxed italic border border-white/5"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "[Hook]: Kya aapne kabhi socha hai ki aapka smartphone aapki baatein sun raha hai? Nahi, ye koi myth nahi hai, aaj hum iske piche ka dark truth reveal karenge... [Transition] Namaste dosto, mera naam hai [Creator Name] aur aaj hum AI ke us chehre se milenge jo shayad aapko darane wala hai."</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Sample 2 --&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-6 md:p-10 rounded-3xl border-l-4 border-l-red-600"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex flex-col md:flex-row justify-between mb-6"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-2xl font-bold"&gt;Niche: Storytelling / Documentary&lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-red-500 font-mono text-sm uppercase mt-2 md:mt-0 tracking-widest"&gt;Viral Script&lt;/span&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-black/50 p-6 rounded-xl font-mono text-sm text-gray-300 leading-relaxed italic border border-white/5"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "[Intro]: 1945, ek ship gayab hoti hai, aur 50 saal baad wo waapas aati hai... lekin bina kisi crew ke. Science iska jawab nahi de paayi, lekin history ke panno mein ek aisi clip chupi hai jo sab kuch badal degi..."</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &lt;/section&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Reviews Section --&gt;</p>
+<p>&nbsp; &nbsp; &lt;section id="reviews" class="py-20 px-6 max-w-6xl mx-auto"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-4xl font-bold mb-12 text-center"&gt;What &lt;span class="text-red-600"&gt;Clients&lt;/span&gt; Say&lt;/h2&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-6 rounded-xl italic"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex text-red-600 mb-4"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "Bhai ki scripts se mera watch time 40% badh gaya. Hook likhne ka tarika bahut unique hai!"</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="mt-4 not-italic font-bold text-red-500"&gt;&mdash; Tech Guru (500k Subs)&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-6 rounded-xl italic"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex text-red-600 mb-4"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "Best scriptwriter I've worked with. Research level bahut hi high hai."</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="mt-4 not-italic font-bold text-red-500"&gt;&mdash; Mystery Central&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="card-glass p-6 rounded-xl italic"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex text-red-600 mb-4"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "Storytelling scripts are masterclass. Audience retention always hits 60%+."</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="mt-4 not-italic font-bold text-red-500"&gt;&mdash; Finance Talks&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &lt;/section&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Payment Section --&gt;</p>
+<p>&nbsp; &nbsp; &lt;section id="payment" class="py-20 px-6 mb-20"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="max-w-4xl mx-auto bg-gradient-to-br from-red-900/20 to-black p-8 md:p-12 rounded-[2rem] border border-red-600/30"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="text-center mb-10"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl md:text-5xl font-bold mb-4"&gt;Ready to Grow Your &lt;span class="text-red-600"&gt;Channel?&lt;/span&gt;&lt;/h2&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-400 uppercase tracking-widest text-sm"&gt;Price: $39 Per Script&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="text-xl font-bold mb-6 flex items-center"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-university text-red-600 mr-3"&gt;&lt;/i&gt; Bank Details</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/h3&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="space-y-4 text-gray-300 bg-black/40 p-6 rounded-xl border border-white/5"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="flex justify-between"&gt;&lt;span&gt;Account Holder:&lt;/span&gt; &lt;span class="text-white font-semibold"&gt;[Aapka Naam]&lt;/span&gt;&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="flex justify-between"&gt;&lt;span&gt;Account Number:&lt;/span&gt; &lt;span class="text-white font-semibold"&gt;XXXXXXXXXXXX&lt;/span&gt;&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="flex justify-between"&gt;&lt;span&gt;IFSC Code:&lt;/span&gt; &lt;span class="text-white font-semibold"&gt;XXXXXXXX&lt;/span&gt;&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="flex justify-between"&gt;&lt;span&gt;Bank Name:&lt;/span&gt; &lt;span class="text-white font-semibold"&gt;[Bank Ka Naam]&lt;/span&gt;&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="mt-6 flex space-x-4"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-white/10 p-3 rounded-lg"&gt;&lt;i class="fab fa-google-pay text-3xl"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-white/10 p-3 rounded-lg"&gt;&lt;i class="fas fa-mobile-alt text-3xl"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-white/10 p-3 rounded-lg"&gt;&lt;i class="fab fa-paypal text-3xl"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="flex flex-col justify-center"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-red-600/10 p-6 rounded-xl border border-red-600/30"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-sm text-gray-400 mb-4"&gt;Payment karne ke baad screenshot bhejien aur topic share karein. Main 48 ghanto mein script deliver kar dunga.&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button onclick="copyDetails()" class="w-full btn-primary py-4 rounded-xl font-bold flex items-center justify-center gap-2"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class="fas fa-copy"&gt;&lt;/i&gt; Copy Bank Details</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="mailto:your@email.com" class="mt-4 text-center text-gray-400 hover:text-red-500 transition underline underline-offset-4 text-sm"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Or Contact me via Email</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/a&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</p>
+<p>&nbsp; &nbsp; &lt;/section&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;!-- Footer --&gt;</p>
+<p>&nbsp; &nbsp; &lt;footer class="py-10 border-t border-white/5 text-center text-gray-500 text-sm"&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;&amp;copy; 2024 ScriptMaster Portfolio. Likhne Ka Naya Andaaz.&lt;/p&gt;</p>
+<p>&nbsp; &nbsp; &lt;/footer&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &lt;script&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; function copyDetails() {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const details = "Bank Account: [Aapka Naam]\nAcc: XXXXXXXXXXXX\nIFSC: XXXXXXXX\nPrice: $39";</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Normal copy method as per safety instructions</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const el = document.createElement('textarea');</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; el.value = details;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; document.body.appendChild(el);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; el.select();</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; document.execCommand('copy');</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; document.body.removeChild(el);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const btn = event.currentTarget;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const originalText = btn.innerHTML;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btn.innerHTML = "&lt;i class='fas fa-check'&gt;&lt;/i&gt; Copied!";</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btn.style.background = "#22c55e";</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; setTimeout(() =&gt; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btn.innerHTML = originalText;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; btn.style.background = "#ff0000";</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }, 2000);</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; &lt;/script&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>&lt;/html&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></body></html>
